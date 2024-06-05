@@ -1,0 +1,52 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ED9D0B, #F68A06 , #F96209, #F94001);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@media (min-width:576px) 
+{ 
+  .regulate{
+    height: 20vh;
+  }
+  h1{
+     font-size: 100px;
+     font-family: "Playfair Display", cursive;
+  }
+
+}
+@media (max-width:576px) 
+{
+  .regulate{
+    height: 20vh;
+  } 
+  h1{
+     font-size: 51px;
+     font-family: "Playfair Display", cursive;
+  }
+  img{
+    width:150px;
+    height:150px;
+  }
+}
+.button{
+  background-color:#1d1d1d;
+  color: white;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.button:hover{
+  background-color: white;
+  color: #1d1d1d;
+}
