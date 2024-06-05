@@ -1,8 +1,8 @@
 document.querySelector('.button').addEventListener('click', handleButtonClick);
 function handleButtonClick() {
     console.log('Button was clicked!');
-    var a = Math.floor((Math.random()) * 6);
-    var b = Math.floor((Math.random()) * 6);
+    var a = Math.floor((Math.random()) * 6)+1;
+    var b = Math.floor((Math.random()) * 6)+1;
     a = parseInt(a); b = parseInt(b);
     const image1 = document.querySelector(".img1");
     const image2 = document.querySelector(".img2");
